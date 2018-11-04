@@ -1,0 +1,405 @@
+doctype //if lt IE 8
+html.no-js.ie.ie7(lang='en')
+//if IE 8
+  html.no-js.ie.ie8(lang='en')
+// [if (gte IE 8)|!(IE)] <!
+html.no-js(lang='en')
+    // <![endif]
+    head
+        //
+          - Basic Page Needs
+          ==================================================
+        meta(charset='utf-8')
+        |
+        title Mat&ecaron;j Hor&aacute;k
+        |
+        meta(name='description', content='Website about Matěj Horák called Horm. Matěj is software developer, GDG organizer or just man who likes technologies, music and games.')
+        |
+        meta(name='keywords', content='Matej, Matěj, Horak, Horák, Horm, Developer')
+        |
+        meta(name='author', content='Matěj Horák')
+        //
+          Mobile Specific Metas
+          ==================================================
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        //
+          CSS
+          ==================================================
+        link(rel='stylesheet', href='css/default.css')
+        |
+        link(rel='stylesheet', href='css/layout.css')
+        |
+        link(rel='stylesheet', href='css/media-queries.css')
+        |
+        link(rel='stylesheet', href='css/magnific-popup.css')
+        |
+        link(rel='stylesheet', href='css/ionicons/css/ionicons.css')
+        |
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext', rel='stylesheet', type='text/css')
+        |
+        script(type="text/javascript" src="js/materialize.min.js")
+        //
+          Script
+          ==================================================
+        script(src='js/modernizr.js')
+        |
+        script.
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-80487928-1', 'auto');
+          ga('send', 'pageview');
+        //
+          Favicons
+          ==================================================
+        link(rel='shortcut icon', href='favicon.png')
+        |
+        link(rel='image_src', href='./images/header-background.jpg')
+    body
+        //
+          Header
+          ==================================================
+        header#home
+            nav#nav-wrap
+                a.mobile-btn(href='#nav-wrap', title='Show navigation') Show navigation
+                |
+                a.mobile-btn(href='#', title='Hide navigation') Hide navigation
+                |
+                ul#nav.nav
+                    li.current
+                        a.smoothscroll(href='#home') Home
+                    |
+                    li
+                        a.smoothscroll(href='#about') About me
+                    |
+                    li
+                        a.smoothscroll(href='#skills') Skills
+                    |
+                    li
+                        a.smoothscroll(href='#portfolio') My projects
+                    |
+                    li
+                        a.smoothscroll(href='#contact') Contact me
+                // end #nav
+            // end #nav-wrap
+            .row.banner
+                .banner-text
+                    h1.responsive-headline Mat&ecaron;j Hor&aacute;k
+                    |
+                    h3
+                        | I&apos;m software developer, GDG organizer or just a man who likes technologies. You may know my nickname
+                        | Horm but I&apos;m not sure if you know something about me. So let&apos;s start scrolling or click on some links
+                        | below to see some new about me!
+                    |
+                    hr
+                    |
+                    ul.social
+                        li
+                            a(href='http://google.com/+MatejHorakHorm/', target='_blank')
+                                i.fa.fa-google-plus.fa-2x
+                        |
+                        li
+                            a(href='http://twitter.com/horakmat', target='_blank')
+                                i.fa.fa-twitter.fa-2x
+                        |
+                        li
+                            a(href='http://stackoverflow.com/users/5650456/hormcz?tab=profile', target='_blank')
+                                i.fa.fa-stack-overflow.fa-2x
+                        |
+                        li
+                            a(href='http://linkedin.com/in/horakmat', target='_blank')
+                                i.fa.fa-linkedin.fa-2x
+                        |
+                        li
+                            a(href='http://github.com/Horm', target='_blank')
+                                i.fa.fa-github.fa-2x
+                        |
+                        li
+                            a(href='https://medium.com/@horm', target='_blank')
+                                i.fa.fa-medium.fa-2x
+                        |
+                        li
+                            a(href='http://instagram.com/horakmat', target='_blank')
+                                i.fa.fa-instagram.fa-2x
+            |
+            p.scrolldown
+                a.smoothscroll(href='#about')
+                    i.icon-down-circle
+        // Header End
+        //
+          About Section
+          ==================================================
+        section#about
+            .row
+                .row.section-intro
+                    .col-twelve.with-bottom-line
+                        h1 Who am I?
+                        |
+                        p.lead
+                            | When you say name Mat&ecaron;j Hor&aacute;k, you can expect person, who has many activities and
+                            | interests.
+                            | Definitely my aim in life is making the world better.
+                            | How? Apart from writing the code, organizing events with GDG and
+                            | playing the guitar, I try to live every day as good as possible.
+                |
+                .three.columns
+                    img.profile-pic(src='images/profilepic.jpg', alt='')
+                |
+                .nine.columns.main-col
+                    h2 Developer
+                    |
+                    p
+                        | Since my childhood I&apos;ve found computers very interesting and thanks to programming I can create many new
+                        | things as websites, mobile applications or smart hidden tools. Do I want to create artificial
+                        | intelligence? Not at all, I think that full-featured AI is bad. However, small forms of AI are OK.
+                    |
+                    p
+                        | When I learned some new programming technologies I&apos;ve found communities very helpful. I feel the duty to
+                        | reciprocate it so I&apos;m organizer in Google Developer Group in Czech Republic.
+                    |
+                    h2 Musician
+                    |
+                    p
+                        | I play the electric guitar. It&apos;s my favourite hobby because during the playing I can clear my head. I&apos;m
+                        | playing in the small band. I don&apos;t have favourites genres but my favourite bands are Simple Plan,
+                        | Paramore and Nickelback.
+                    |
+                    h2 Gamer
+                    |
+                    p
+                        | No time for it but it&apos;s one of the parts of my entertainment. I like games as Age of Empires, Rayman,
+                        | Life is Strange and MMORPG SWTOR...
+                // end .main-col
+        // About Section End
+        //
+          features Section
+          ==================================================
+        section#skills
+            .row.section-intro
+                .col-twelve.with-bottom-line
+                    h1 Skills...
+                    |
+                    p.lead
+                        | In development I like to develop Android Apps in Java language, websites and desktop
+                        | applications in
+                        | HTML, CSS and JavaScript. During development I prefer Test Driven Development and clean code
+                        | practices.
+            |
+            .row.features-content
+                .features-list.block-1-3.block-s-1-2.block-tab-full.group
+                    .bgrid.feature
+                        span.icon
+                            i.icon.ion-coffee
+                        |
+                        .service-content
+                            h3.h05 Kotlin (Java)
+                    // /bgrid
+                    .bgrid.feature
+                        span.icon
+                            i.icon.ion-social-android
+                        |
+                        .service-content
+                            h3.h05 Android Development
+                    // /bgrid
+                    .bgrid.feature
+                        span.icon
+                            i.icon.ion-fork-repo
+                        |
+                        .service-content
+                            h3.h05 Git
+                    // /bgrid
+                    .bgrid.feature
+                        span.icon
+                            i.icon.ion-social-javascript
+                        |
+                        .service-content
+                            h3.h05 JavaScript
+                    // /bgrid
+                    .bgrid.feature
+                        span.icon
+                            i.icon.ion-social-angular
+                        |
+                        .service-content
+                            h3.h05 AngularJS
+                    // /bgrid
+                    .bgrid.feature
+                        span.icon
+                            i.icon.ion-waterdrop
+                        |
+                        .service-content
+                            h3.h05 TDD &amp; Clean Code
+                    // /bgrid
+                // features-list
+            // features-content
+        // /features
+        //
+          Portfolio Section
+          ==================================================
+        section#portfolio
+            .row
+                .twelve.columns.collapsed
+                    h1
+                        span Check out some my projects
+                    // portfolio-wrapper
+                    #portfolio-wrapper.bgrid-quarters.s-bgrid-thirds.cf
+                        .columns.portfolio-item
+                            .item-wrap
+                                a(href='#modal-01', title='')
+                                    img(alt='', src='images/portfolio/raytools.jpg')
+                                    |
+                                    .overlay
+                                        .portfolio-item-meta
+                                            h5 RAy Tools
+                                            |
+                                            p Mobile application
+                                    |
+                                    .link-icon
+                                        i.icon.ion-more
+                        // item end
+                        .columns.portfolio-item
+                            .item-wrap
+                                a(href='#modal-02', title='')
+                                    img(alt='', src='images/portfolio/2048.jpg')
+                                    |
+                                    .overlay
+                                        .portfolio-item-meta
+                                            h5 Our 2048
+                                            |
+                                            p Web Development
+                                    |
+                                    .link-icon
+                                        i.icon.ion-more
+                        // item end
+                    // portfolio-wrapper end
+                // twelve columns end
+                //
+                  Modal Popup
+                  ---------------------------------------------------------------
+                #modal-01.popup-modal.mfp-hide
+                    img.scale-with-grid(src='images/portfolio/modals/m-raytools.jpg', alt='')
+                    |
+                    .description-box
+                        h4 RAy Tools
+                        |
+                        p
+                            | This app is for microwave link calculations for radio units called RAy2. These units are produced by
+                            | Racom company and I created this app for this company. I tried to use new technologies for example
+                            | application is in Material Design and off course it supports different screen sizes.
+                        |
+                        span.categories
+                            i.fa.fa-tag
+                            | Android, Java
+                    |
+                    .link-box
+                        a(href='https://play.google.com/store/apps/details?id=job.raytools', target='_blank') Download
+                        |
+                        a.popup-modal-dismiss Close
+                // modal-01 End
+                #modal-02.popup-modal.mfp-hide
+                    img.scale-with-grid(src='images/portfolio/modals/m-2048.jpg', alt='')
+                    |
+                    .description-box
+                        h4 Our 2048
+                        |
+                        p
+                            | Our version of popular game 2048. It was made by GDG Garage &Zcaron;&dcaron;&aacute;r team for educational purposes.
+                        |
+                        span.categories
+                            i.fa.fa-tag
+                            | Web Development, HTML, CSS, JavaScript
+                    |
+                    .link-box
+                        a(href='http://gdgzdar.github.io/2048/', target='_blank') Play
+                        |
+                        a(href='https://github.com/gdgzdar/2048', target='_blank') Github
+                        |
+                        a.popup-modal-dismiss Close
+                // modal-02 End
+            // row End
+        // Portfolio Section End
+        //
+          Contact Section
+          ==================================================
+        section#contact
+            .row.section-head
+                .two.columns.header-col
+                    h1
+                        span Get In Touch.
+                |
+                .ten.columns
+                    p.lead
+                        | If you want to ask me about my person, projects or some technology please use this email:
+                        b info@horm.cz
+                    |
+                    p.lead
+                        | In case of hiring please type subject message in this format:
+                    |
+                    p.lead
+                        b HIRE OFFER: Name of the company
+                    |
+                    p.lead
+                        | Thank you
+        // Contact Section End
+        //
+          footer
+          ==================================================
+        footer
+            .row
+                .twelve.columns
+                    ul.social-links
+                        li
+                            a(href='http://google.com/+MatejHorakHorm/', target='_blank')
+                                i.fa.fa-google-plus.fa-2x
+                        |
+                        li
+                            a(href='http://twitter.com/horakmat', target='_blank')
+                                i.fa.fa-twitter.fa-2x
+                        |
+                        li
+                            a(href='http://stackoverflow.com/users/5650456/horm?tab=profile', target='_blank')
+                                i.fa.fa-stack-overflow.fa-2x
+                        |
+                        li
+                            a(href='http://linkedin.com/in/horakmat', target='_blank')
+                                i.fa.fa-linkedin.fa-2x
+                        |
+                        li
+                            a(href='http://github.com/Horm', target='_blank')
+                                i.fa.fa-github.fa-2x
+                        |
+                        li
+                            a(href='https://medium.com/@horm', target='_blank')
+                                i.fa.fa-medium.fa-2x
+                        |
+                        li
+                            a(href='http://instagram.com/horakmat', target='_blank')
+                                i.fa.fa-instagram.fa-2x
+                    |
+                    ul.copyright
+                        li &copy; 2014 CeeVee
+                        |
+                        li
+                            | Design by
+                            a(title='Styleshout', href='http://www.styleshout.com/') Styleshout
+                        |
+                        li
+                            | Edited by
+                            a(title='Matěj Horák', href='#') Mat&ecaron;j Hor&aacute;k
+                |
+                #go-top
+                    a.smoothscroll(title='Back to Top', href='#home')
+                        i.icon-up-open
+        // Footer End
+        //
+          Java Script
+          ==================================================
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+        script.
+          window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\\/script>')
+        script(type='text/javascript', src='js/jquery-migrate-1.2.1.min.js')
+        script(src='js/jquery.flexslider.js')
+        script(src='js/waypoints.js')
+        script(src='js/jquery.fittext.js')
+        script(src='js/magnific-popup.js')
+        script(src='js/init.js')

@@ -1,0 +1,10 @@
+/*
+.parallax-container {
+    height: 100vh; !* For 100% screen height *!
+    width:  100vw; !* For 100% screen width *!
+}
+*/
+
+.slider .indicators .indicator-item.active {
+    background-color: orange;
+}
