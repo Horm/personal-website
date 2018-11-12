@@ -8,3 +8,42 @@
 .slider .indicators .indicator-item.active {
     background-color: orange;
 }
+
+.bg-header {
+    /* The image used */
+    background-image: url("../images/header-background.jpg");
+
+    /* Full height */
+    height: 100vh;
+    width:  100vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.bg-skills {
+    /* The image used */
+    background-image: url("../images/features-bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vert-align {
+
+    height: inherit;
+    width: inherit;
+
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+}
