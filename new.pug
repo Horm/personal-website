@@ -19,14 +19,10 @@ html(lang='en')
                             li
                                 a(href='/cv.pdf') Resume
                             li
-                                a(href='#') Projects
-                            li
                                 a(href='https://medium.com/@horm') Blog
                         ul#nav-mobile.sidenav
                             li
                                 a(href='/cv.pdf') Resume
-                            li
-                                a(href='#') Projects
                             li
                                 a(href='https://medium.com/@horm') Blog
                         a.sidenav-trigger(href='#', data-target='nav-mobile')
@@ -68,10 +64,6 @@ html(lang='en')
                                 a(href='http://instagram.com/horakmat', target='_blank').white-text
                                     i.fab.fa-instagram.fa-3x
 
-
-                        .row.center
-                            br
-                            a.btn-large.waves-effect.waves-light.teal.lighten-1.orange(href='http://materializecss.com/getting-started.html') Get Started
                         br
 
         .container
@@ -201,14 +193,15 @@ html(lang='en')
                     h2.white-text Portfolio highlights
                     .row
                         .col.s12.m6
-                            .card
-                                .card-image
-                                    img(src='images/portfolio/modals/m-gug.jpg')
-                                .card-content
-                                    span.card-title GUG.cz Web
-                                    p Web for publishing Google User Group events
+                            a(href="./gugweb.html")
+                                .card.hoverable
+                                    .card-image
+                                        img(src='images/portfolio/modals/m-gug.jpg')
+                                    .card-content
+                                        span.card-title.black-text GUG.cz Web
+                                        p.black-text Web for publishing Google User Group events
                         .col.s12.m6
-                            .card
+                            .card.hoverable
                                 .card-image
                                     img(src='images/portfolio/modals/m-raytools.jpg')
                                 .card-content
@@ -232,29 +225,13 @@ html(lang='en')
                     br
                     br
 
-
-        .section.grey.lighten-3
-            .container
-                h2.center Some snapshots...
-                a(href="http://instagram.com/horakmat", target="_blank")
-                    .container
-                        .row
-                            mixin instagram-post(imageUrl)
-                                .col.s12.m4
-                                    img.responsive-img(src=imageUrl).padding
-                            +instagram-post('images/instagram/talk.jpg')
-                            +instagram-post('images/instagram/work.jpg')
-                            +instagram-post('images/instagram/board.jpg')
-                            +instagram-post('images/instagram/guitar.jpg')
-                            +instagram-post('images/instagram/event.jpg')
-                            +instagram-post('images/instagram/run.jpg')
         footer.page-footer.grey.darken-3
             .container
                 .row
                     .col.l6.s12
                         h5.white-text Something secret...
                         p.grey-text.text-lighten-4
-                            | Are you still here? You are hero!
+                            | Are you still here? You are hero! OK, time to tell you something secret. In summer 2018 I've finished Camino de Santiago which is the most popular pilgrimage in the world. It was hard to invest 35 days into walking but this experience was one of the best. I was offline and I had there time for myself and for meeting new people.
                     .col.l3.s12
 
                     .col.l3.s12

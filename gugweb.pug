@@ -1,0 +1,86 @@
+doctype html
+html(lang='en')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title Horm - GUG.cz Web
+        // CSS
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(href='css/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+        link( rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous")
+        link(href='css/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+    body
+        .navbar-fixed
+            nav.grey.darken-3(role='navigation')
+                .nav-wrapper.container
+                    a#logo-container.brand-logo(href='/') Horm
+                    ul.right.hide-on-med-and-down
+                        li
+                            a(href='/cv.pdf') Resume
+                        li
+                            a(href='https://medium.com/@horm') Blog
+                    ul#nav-mobile.sidenav
+                        li
+                            a(href='/cv.pdf') Resume
+                        li
+                            a(href='https://medium.com/@horm') Blog
+                    a.sidenav-trigger(href='#', data-target='nav-mobile')
+                        i.material-icons menu
+
+        .container
+            .section
+                // Icon Section
+                h1 GUG.cz Web
+                p Web for publishing Czech Google User Group events...
+                p JavaScript, ExpressJS, AngularJS, Firebase
+                ul
+                    li
+                        a(href="https://github.com/gugcz/web-admin") Administration
+                    li
+                        a(href="https://github.com/gugcz/web-frontend") Frontend
+                    li
+                        a(href="https://github.com/gugcz/web-cloud-functions") Backend Cloud Functions
+                p Working on special blog post...
+                .container
+                    .container
+                        img.responsive-img(src="images/portfolio/modals/m-gug.jpg")
+
+
+                br
+                br
+                br
+
+
+
+        footer.page-footer.grey.darken-3
+            .container
+                .row
+                    .col.l6.s12
+                        h5.white-text Something secret...
+                        p.grey-text.text-lighten-4
+                            | Are you still here? You are hero! OK, time to tell you something secret. In summer 2018 I've finished Camino de Santiago which is the most popular pilgrimage in the world. It was hard to invest 35 days into walking but this experience was one of the best. I was offline and I had there time for myself and for meeting new people.
+                    .col.l3.s12
+
+                    .col.l3.s12
+                        h5.white-text Socials
+                        ul
+                            li
+                                a(href='http://twitter.com/horakmat', target='_blank').white-text Twitter
+                            li
+                                a(href='http://stackoverflow.com/users/5650456/horm?tab=profile', target="_blank").white-text stackoverflow
+                            li
+                                a(href='http://linkedin.com/in/horakmat', target = '_blank').white-text Linkedin
+                            li
+                                a(href='http://github.com/Horm', target='_blank').white-text GitHub
+                            li
+                                a(href='https://medium.com/@horm', target='_blank').white-text Medium
+                            li
+                                a(href='http://instagram.com/horakmat', target='_blank').white-text Instagram
+            .footer-copyright
+                .container
+                    | Made by Horm
+
+        // Scripts
+        script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+        script(src='js/materialize.js')
+        script(src='js/init.js')

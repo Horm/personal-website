@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a727eda5-31c7-46c9-894e-b22f2aa31a33" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/modals/m-raytools.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio/modals/m-raytools.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gugweb.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raytools.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new.pug" beforeDir="false" afterPath="$PROJECT_DIR$/new.pug" afterDir="false" />
     </list>
     <ignored path="personal-website.iws" />
@@ -52,11 +53,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
+            <state relative-caret-position="418">
+              <caret line="233" column="359" selection-start-line="233" selection-start-column="359" selection-end-line="233" selection-end-column="359" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gugweb.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gugweb.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="60" column="359" selection-start-line="60" selection-start-column="359" selection-end-line="60" selection-end-column="359" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raytools.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raytools.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="56" selection-start-line="56" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -74,20 +93,6 @@
       <file leaf-file-name="raytools.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/portfolio/raytools.jpg">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="features-bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/features-bg.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
@@ -153,7 +158,9 @@
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/raytools.pug" />
         <option value="$PROJECT_DIR$/new.pug" />
+        <option value="$PROJECT_DIR$/gugweb.pug" />
       </list>
     </option>
   </component>
@@ -327,18 +334,7 @@
             <path>
               <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
@@ -349,43 +345,6 @@
             <path>
               <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="modals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="modals" type="462c0819:PsiDirectoryNode" />
@@ -413,11 +372,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/portfolio/modals" />
       <recent name="$PROJECT_DIR$/public/images/portfolio/modals" />
       <recent name="$PROJECT_DIR$/images/community" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/public/images/community" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,7 +443,7 @@
       <workItem from="1541264571686" duration="11944000" />
       <workItem from="1541593835449" duration="1687000" />
       <workItem from="1542040286438" duration="3563000" />
-      <workItem from="1542291678209" duration="5174000" />
+      <workItem from="1542291678209" duration="7854000" />
     </task>
     <task id="LOCAL-00001" summary="Current state">
       <created>1511633257528</created>
@@ -521,11 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542291785648</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add instagram">
+      <created>1542487512015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542487512015</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50462000" />
+    <option name="totallyTimeSpent" value="53142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-254" y="-1080" width="1920" height="1080" extended-state="6" />
@@ -616,19 +582,14 @@
     <MESSAGE value="Add new web prototype" />
     <MESSAGE value="Finish start section" />
     <MESSAGE value="Change community images into darker ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change community images into darker ones" />
+    <MESSAGE value="Add instagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add instagram" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/overlay-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/overlay-zoom.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/sendEmail.php" />
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -827,8 +788,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
+        <state relative-caret-position="418">
+          <caret line="233" column="359" selection-start-line="233" selection-start-column="359" selection-end-line="233" selection-end-column="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raytools.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" selection-start-line="56" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gugweb.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="60" column="359" selection-start-line="60" selection-start-column="359" selection-end-line="60" selection-end-column="359" />
         </state>
       </provider>
     </entry>
