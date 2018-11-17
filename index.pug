@@ -9,6 +9,9 @@ html(lang='en')
         link(href='css/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
         link( rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous")
         link(href='css/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+
+        link( rel="shortcut icon" href="favicon.png")
+        link(rel="image_src" href="./images/header-background.jpg")
     body
         .bg-header
             .navbar-fixed
@@ -192,22 +195,17 @@ html(lang='en')
                 .container
                     h2.white-text Portfolio highlights
                     .row
-                        .col.s12.m6
-                            a(href="./gugweb.html")
-                                .card.hoverable
-                                    .card-image
-                                        img(src='images/portfolio/modals/m-gug.jpg')
-                                    .card-content
-                                        span.card-title.black-text GUG.cz Web
-                                        p.black-text Web for publishing Google User Group events
-                        .col.s12.m6
-                            a(href="./raytools.html")
-                                .card.hoverable
-                                    .card-image
-                                        img(src='images/portfolio/modals/m-raytools.jpg')
-                                    .card-content
-                                        span.card-title RAy Tools
-                                        p Android and iOS native applications for easy microwave link setup
+                        mixin project(html, cover, title, note)
+                            .col.s12.m6
+                                a(href=html)
+                                    .card.hoverable
+                                        .card-image
+                                            img(src=cover)
+                                        .card-content
+                                            span.card-title.black-text=title
+                                            p.black-text=note
+                        +project("gugweb.html", "images/portfolio/modals/m-gug.jpg", "GUG.cz Web", "Web for publishing Google User Group events")
+                        +project("raytools.html", "images/portfolio/modals/m-raytools.jpg", "RAy Tools", "Android and iOS native applications for easy microwave link setup")
                 br
 
         .section
