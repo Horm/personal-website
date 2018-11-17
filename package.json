@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "scripts": {
+    "prepare-deploy": "mkdir public && cp index.html public && cp gugweb.html public && cp raytools.html public && cp -R css public && cp -R js public && cp -R images public && cp cv.pdf public",
+    "deploy": "npm run prepare-deploy && firebase deploy && npm run clean-deploy",
+    "clean-deploy": "rm -rf public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horm/personal-website.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Horm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Horm/personal-website/issues"
+  },
+  "homepage": "https://github.com/Horm/personal-website#readme"
+}
