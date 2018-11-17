@@ -81,7 +81,7 @@ html(lang='en')
                 p.lead
                     | When you say name Matěj Horák, you can expect person, who has many activities and
                     | interests.
-                    | Definitely my aim in life is making the world better.
+                    | Hard to say what is my aim in life but I just want to help somehow and be happy.
                     | How? Apart from writing the code, organizing events with GDG and
                     | playing the guitar, I try to live every day as good as possible.
 
@@ -93,34 +93,35 @@ html(lang='en')
                     .col.s12.m1
                     .col.s12.m9
 
-
-
                         h3 Developer
-                        |
                         p
-                            | Since my childhood I've found computers very interesting and thanks to programming I can create many new
-                            | things as websites, mobile applications or smart hidden tools.
-                        |
+                        | Since my childhood I've found computers very interesting and thanks to programming I can create many new
+                        | things as websites, mobile applications or smart hidden tools.
                         p
-                            | When I learned some new programming technologies I've found communities very helpful. I feel the duty to
-                            | reciprocate it so I'm organizer in Google Developer Group in Czech Republic.
+                        | When I learned some new programming technologies I've found communities very helpful. I feel the duty to
+                        | reciprocate it so I'm organizer in Google Developer Group in Czech Republic.
                         |
                         h3 Musician
-                        |
                         p
-                            | I play the electric guitar. It&apos;s my favourite hobby because during the playing I can clear my head. I&apos;m
-                            | playing in the small band. I don&apos;t have favourites genres but my favourite bands are Simple Plan,
-                            | Paramore and Nickelback.
+                        | I play the electric guitar. It&apos;s my favourite hobby because during the playing I can clear my head. I&apos;m
+                        | playing in the small band. I don&apos;t have favourites genres but my favourite bands are Simple Plan,
+                        | Paramore and Coldplay.
                         h3 Sport Lover
-                        |
                         p
-                            | Not like a professional but sport is one important part of my personal free time. Minimally once a week I play floorbal and go jogging.
+                        | Not like a professional but sport is one important part of my free time. Minimally once a week I play floorbal and go jogging.
+                        | For transport in a city usually I go by skateboard.
+
+                br
+                br
+                br
+
+
         .bg-skills
             .section
                 .container
 
                         h2.header.white-text Skills
-                        p.light.white-text I have some experience with many technologies, frameworks, parts of development but these are my favourites. However, in development I prefer Test Driven Development and clean code practices like functional concepts.
+                        p.light.white-text I have some experience with many technologies, frameworks, parts of development but these are my favourites. In any case, I prefer Test Driven Development and clean code practices like functional concepts.
 
                         .row
                             mixin skill(name, icon, text)
@@ -132,7 +133,7 @@ html(lang='en')
                                         p.light.white-text.center !{text}
                             +skill("Kotlin", "fab fa-kickstarter-k", "I can develop in Java but I think there is no reason for that. Kotlin is good in using different paradigms such as functional or object oriented programming etc.")
                             +skill("JavaScript", "fab fa-js", "Freedom but responsibility, that's the rule. It's not about types. I like Javascript because it's not necessary to write so many keywords to simple object or function...")
-                            +skill("Git", "fas fa-code-branch", "Is there someone who using some other VCS tool? I'm big open source fan. You can check my GitHub to see some my open source contributions...")
+                            +skill("Git", "fas fa-code-branch", "Is there someone who is using some other VCS tool? I'm big open source fan. You can check my GitHub to see some my open source contributions...")
                         .row
                             +skill("Frontend", "fas fa-desktop", "I have experience with developing native Android and iOS applications. What about web? For now, only AngularJS yet. However, my bachelor work will be in React.")
                             +skill("Backend", "fas fa-database", "ExpressJS, Spring or Firebase but I do not prefer Firebase as backend solution.")
@@ -142,7 +143,7 @@ html(lang='en')
             .section
                 h2 Active in Community
                 p Since I have started to study programming I wanted to visit some space where is possible share our knowledge and learn from each other. Luckily I have found GDG community in Czechia and after one month I joined this community, concretely I have created local chapter in Žďár nad Sázavou.
-                p Now, I am active in GDG Brno. We organized many types of events like talks, workshops, coding dojos or conference DevFest. I was mentoring Angular Workshop and in 2017 I attend Google I/O in Mountain View.
+                p Now, I am active in GDG Brno. We organized many types of events like talks, workshops, coding dojos or conference DevFest. I was mentoring Angular Workshop and in 2017 I attended Google I/O in Mountain View.
                 br
                 .slider
                     ul.slides
@@ -194,7 +195,7 @@ html(lang='en')
                                 h5.light.grey-text.text-lighten-3 I helped with DevFest in Pilsen and twice in Prague...
                 br
 
-        .bg-skills
+        .bg-projects
             .section.no-pad-bot
                 .container
                     h2.white-text Portfolio highlights
@@ -202,7 +203,7 @@ html(lang='en')
                         .col.s12.m6
                             .card
                                 .card-image
-                                    img(src='images/portfolio/modals/m-gug.png')
+                                    img(src='images/portfolio/modals/m-gug.jpg')
                                 .card-content
                                     span.card-title GUG.cz Web
                                     p Web for publishing Google User Group events
@@ -218,27 +219,42 @@ html(lang='en')
         .section
             .container
                 div.center
-                    h2 Get In Touch
+                    h2 Contact Me
                     p If you want to ask me about my person, projects or some technology please use this email:
                     br
                     a.center(href="mailto:info@horm.cz")
                         i.fas.fa-5x.fa-envelope.orange-text
-                        h3.lead.orange-text info@horm.cz
-                    br
+                        p.flow-text.lead.orange-text info@horm.cz
                     p In case of job offers...
                     br
-                    a.btn-large.orange(href="mailto:info@horm.cz?subject=Job Offer: Name of the company") Send Job Offer
+                    a.btn-large.orange(href="mailto:info@horm.cz?subject=Job Offer: Company Name") Send Job Offer
                     br
                     br
                     br
 
+
+        .section.grey.lighten-3
+            .container
+                h2.center Some snapshots...
+                a(href="http://instagram.com/horakmat", target="_blank")
+                    .container
+                        .row
+                            mixin instagram-post(imageUrl)
+                                .col.s12.m4
+                                    img.responsive-img(src=imageUrl).padding
+                            +instagram-post('images/instagram/talk.jpg')
+                            +instagram-post('images/instagram/work.jpg')
+                            +instagram-post('images/instagram/board.jpg')
+                            +instagram-post('images/instagram/guitar.jpg')
+                            +instagram-post('images/instagram/event.jpg')
+                            +instagram-post('images/instagram/run.jpg')
         footer.page-footer.grey.darken-3
             .container
                 .row
                     .col.l6.s12
                         h5.white-text Something secret...
                         p.grey-text.text-lighten-4
-                            | Are you still here? You are hero! :D
+                            | Are you still here? You are hero!
                     .col.l3.s12
 
                     .col.l3.s12
