@@ -9,7 +9,7 @@ services:
     image: ghost:1-alpine
     restart: always
     ports:
-      - 8080:2368
+      - 2368:2368
     environment:
       # see https://docs.ghost.org/docs/config#section-running-ghost-with-config-env-variables
       database__client: mysql
