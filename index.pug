@@ -262,3 +262,12 @@ html(lang='en')
         script(src='https://code.jquery.com/jquery-2.1.1.min.js')
         script(src='js/materialize.js')
         script(src='js/init.js')
+        script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-80487928-1')
+        script.
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'UA-80487928-1');
+
