@@ -8,9 +8,9 @@ jobs:
       - checkout
       - run: sudo npm install pug-cli -g
       - run: sudo npm install -g firebase-tools
-      - run: pug .
+      - run: pug pages
       - run: mkdir public
-      - run: find . -name \*.html -exec cp {} public \;
+      - run: find pages -name \*.html -exec cp {} public \;
       - run: cp robots.txt public && cp sitemap.xml public && cp resume.pdf public
       - run: cp -R css public
       - run: cp -R js public
