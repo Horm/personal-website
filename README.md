@@ -11,4 +11,4 @@ Horm's blog is hosted on separate project and the blog is using [Ghost Platform]
 
 ## License 
 
-Sources are under [MIT License](https://github.com/Horm/personal-website/blob/master/robots.txt).
+Sources are under [MIT License](https://github.com/Horm/personal-website/blob/master/LICENSE.txt).
